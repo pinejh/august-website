@@ -24,7 +24,7 @@ nav {
     padding-bottom: 0px !important;
 }
 
-@media (min-width:992px){
+@media (min-width:576px){
     .nav-item:first-of-type {
         border-left: 1px solid #ffffff;
     }
