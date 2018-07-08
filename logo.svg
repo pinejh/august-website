@@ -1,0 +1,18 @@
+<svg width="450" height="175" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="452" height="177" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <defs>
+   <mask id="mask" x="0" y="0" width="452" height="177">
+    <rect x="0" y="0" width="452" height="177" fill="#fff" id="svg_1"/>
+    <text fill="#000" stroke-width="0" x="196.156558" y="198.582908" id="svg_2" font-size="24" font-family="Helvetica, Arial, sans-serif" text-anchor="start" xml:space="preserve" font-weight="bold" transform="matrix(5.96819, 0, 0, 5.96819, -1140.2, -1044.1)">C A E</text>
+   </mask>
+  </defs>
+  <rect fill="#ffffff" stroke-width="1.5" x="16.5" y="21.949997" width="134" height="134" id="svg_5" mask="url(#mask)"/>
+  <rect fill="#ffffff" stroke-width="1.5" x="157.513885" y="21.949997" width="134" height="134" id="svg_6" mask="url(#mask)"/>
+  <rect fill="#ffffff" stroke-width="1.5" x="299.611481" y="21.949997" width="134" height="134" id="svg_7" mask="url(#mask)"/>
+ </g>
+</svg>
