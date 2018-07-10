@@ -35,7 +35,7 @@ nav {
     margin-top: -0.25em;
 }
 
-@media (min-width:576px){
+@media (min-width:576px) {
     .nav-item:first-of-type {
         border-left: 1px solid #ffffff;
     }
@@ -45,18 +45,33 @@ nav {
 }
 
 .carousel {
-    max-height: 75vh;
     overflow: hidden;
     position: relative;
 }
 .carousel>* {
     z-index: 1;
 }
+.carousel-item>img {
+    max-width: none;
+    height: 75vh;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+.carousel-control {
+    visibility: hidden;
+}
+.carousel:hover .carousel-control {
+    visibility: visible;
+}
 
-#carousel-overlay {
+#carousel>.row {
     position: absolute;
-    top: 5vh;
-    left: 5vh;
+    bottom: 5vh;
+    width: 100%;
+}
+#carousel-overlay {
     background-color: rgba(60, 60, 60, .3);
     color: #ffffff;
     z-index: 2;
