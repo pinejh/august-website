@@ -42,6 +42,9 @@ nav {
     .nav-item {
         border-right: 1px solid #ffffff;
     }
+    .carousel-item>img {
+        height: 75vh !important;
+    }
 }
 
 .carousel {
@@ -53,7 +56,7 @@ nav {
 }
 .carousel-item>img {
     max-width: none;
-    height: 75vh;
+    height: 50vh;
     left: 50%;
     position: relative;
     transform: translateX(-50%);
