@@ -2,95 +2,24 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>CA EXPOSED</title>
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <title>Lil Riyo Vevo</title>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Righteous|Slabo+27px&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div id="container">
-            <nav class="navbar navbar-expand-sm navbar-dark bg-primary-green">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="logo.svg" alt="CAE"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon active"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarToggle">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="recent.html">Recent</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="archived.html">Archived</a>
-                            </li>
-                        </ul>
-                    </div>
+            <!-- https://open.spotify.com/artist/1n9rii4Gdcu6Shu3BjidWH -->
+            <div class="hero">
+                <div class="hero-text">
+                    <h1 class="hero-text_header">Lil Riyo</h1>
+                    <p class="hero-text_body">u already know who it is</p>
                 </div>
-            </nav>
-            <div class="container-fluid col-lg-10 col-12" style="padding: 2vh;">
-                <div class="row">
-                    <div id="carousel" class="carousel slide col-lg-8 col-xs-12" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item center-block active">
-                                <img class="center-block" src="https://concordacademy.org/wp-content/uploads/2015/11/RickHardyConcordAcademy.jpg" alt="Rick 1">
-                            </div>
-                            <div class="carousel-item center-block">
-                                <img class="center-block" src="https://www.moppenheim.tv/wp-content/uploads/a-minute-with-rick-hardy-head-of1.jpg" alt="Rick 2">
-                            </div>
-                        </div>
-                        <a class="carousel-control carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control carousel-control-next" href="#carousel" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                        <div class="row">
-                            <div id="carousel-overlay" class="col-sm-8 col-10 offset-sm-2 offset-1 text-center">
-                                <h3>Welcome to <img src="logo.svg" alt="CAE"></h3>
-                                <p>Your new favorite locally sourced, crowdfunded news outlet.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="recent" class="col-lg-4 col-12">
-                        <!-- <h4>Recent Events:</h4> -->
-                        <div class="row">
-                            <div class="news-card col-lg-6 col-12">
-                                <img class="news-card-img" src="https://instagram.fbed1-1.fna.fbcdn.net/vp/ecef6317b498dbcc0dac0b8a45ae3f8d/5BEA8BD9/t51.2885-15/e35/30856072_1792426220780707_4822664583057506304_n.jpg">
-                                <a href="recent.html#slyboiz" class="news-card-caption text-center">
-                                    <p>Sly Boiz Back at it Again</p>
-                                </a>
-                            </div>
-                            <div class="news-card col-lg-6 col-12">
-                                <img class="news-card-img" src="https://instagram.fbed1-1.fna.fbcdn.net/vp/f44fc3f550ed8bb5a6344ecbbf3351b6/5BD3D0F4/t51.2885-15/e35/27575640_1360403200730586_5614888300285263872_n.jpg">
-                                <a href="recent.html#ohhhrick" class="news-card-caption text-center">
-                                    <p>Ohhh Rick...</p>
-                                </a>
-                            </div>
-                            <div class="news-card col-lg-6 col-12">
-                                <img class="news-card-img" src="https://instagram.fbed1-1.fna.fbcdn.net/vp/21aa2e98933630d232521dc8152f3cb3/5BC5B0FA/t51.2885-15/e35/18581166_130604354173717_9014550555124563968_n.jpg">
-                                <a href="recent.html#finalsighting" class="news-card-caption text-center">
-                                    <p>Final Sighting of Jack Hutchinson???</p>
-                                </a>
-                            </div>
-                            <div class="news-card col-lg-6 col-12">
-                                <img class="news-card-img" src="https://instagram.fbed1-1.fna.fbcdn.net/vp/95610b22f6c65c2bffa7c579233cf5e1/5BC593C6/t51.2885-15/e35/18095297_764850410339994_7021540882008506368_n.jpg">
-                                <a href="recent.html#oscarspotted" class="news-card-caption text-center">
-                                    <p>Oscar the Grouch Spotted on Campus</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a href="owen.html">We Boolin</a>
+                <img class="hero-vevo" src="images/logo-vevo.png" alt="vevo">
+                <iframe class="hero-widget" src="https://open.spotify.com/embed/artist/1n9rii4Gdcu6Shu3BjidWH" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
+            <iframe class="widget" src="https://open.spotify.com/embed/artist/1n9rii4Gdcu6Shu3BjidWH" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
         <script src="main.js"></script>
     </body>
 </html>
